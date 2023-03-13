@@ -11,10 +11,6 @@ trim_trailing_whitespace = true
 # Используем табы для отступов (Не указываем размер)
 [*.{js,jsx,ts,tsx}]
 indent_style = tab
-
-# Перезависываем настройку отступов для js файлов в папке lib
-[lib/**.js]
-indent_style = space
 indent_size = 2
 
 # Только для файлов package.json or .travis.yml
@@ -27,6 +23,3 @@ indent_size = 2
 charset = utf-8
 indent_size = 4
 indent_style = tab
-
-
-
