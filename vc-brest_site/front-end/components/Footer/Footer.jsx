@@ -42,20 +42,6 @@ class Footer extends React.Component {
 			</footer>
 		);
 	}
-
-	toggleHidden(e) {
-		if (e.target.nextElementSibling !== null) {
-			if (e.target.nextElementSibling.classList.contains('nav__selections')) {
-				e.target.nextElementSibling.classList.toggle('hidden')
-				if (!e.target.nextElementSibling.classList.contains('hidden')) {
-					e.target.nextElementSibling.style.display = 'flex'
-				} else {
-					e.target.nextElementSibling.style.display = 'none'
-				}
-			}
-		}
-	}
-
 }
 
 export default Footer
