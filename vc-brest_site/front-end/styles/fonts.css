@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Inter', sans-serif;
+	src: url(../assets/fonts/Inter.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	src: url(../assets/fonts/Montserrat.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	src: url(../assets/fonts/Montserrat-Italic.ttf) format('ttf');
+}

@@ -1,0 +1,13 @@
+:root {
+	/*Размеры*/
+	--container: calc(1130px + 40px);
+
+	/*Цвета фона*/
+	--background-primary: #0959A0;
+	--background-secondary: #fff;
+
+	/*Цвета текста*/
+	--color-primary: #000;
+	--color-secondary: #fff;
+	--link-hover: rgba(255, 255, 255, 0.7);
+}
