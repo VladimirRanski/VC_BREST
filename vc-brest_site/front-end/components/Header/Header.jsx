@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/index.scss';
+import Button from "../Button/Button";
 
 
 class Header extends React.Component {
@@ -39,6 +40,7 @@ class Header extends React.Component {
 						</ul>
 					</nav>
 				</div>
+				<Button type='XXL' href='http://google.com' text='google'/>
 			</header>
 		);
 	}
