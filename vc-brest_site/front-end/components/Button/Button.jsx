@@ -3,6 +3,14 @@ import './styles/index.scss';
 
 const classes = ['btn'];
 
+/**
+ *
+ * @param props.text - текст кнопки
+ * @param props.type - тип кнопки
+ * @param props.size - размер кнопки
+ * @param props.state - состояние кнопки
+ * @constructor
+ */
 const AddingClasses = (props) => {
 	for (let key in props) {
 		if (((key !== 'href') && (key !== 'text')) && props[key] !== undefined) {

@@ -14,6 +14,8 @@
 	&__list {
 		display: flex;
 		gap: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 
 	&__link {
@@ -33,7 +35,6 @@
 		position: absolute;
 		padding: 0 1rem;
 		height: 12rem;
-		//display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		background-color: #0959A0;

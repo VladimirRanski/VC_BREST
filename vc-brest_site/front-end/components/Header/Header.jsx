@@ -40,7 +40,6 @@ class Header extends React.Component {
 						</ul>
 					</nav>
 				</div>
-				<Button type='XXL' href='http://google.com' text='google'/>
 			</header>
 		);
 	}
