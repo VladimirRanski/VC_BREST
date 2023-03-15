@@ -1,0 +1,116 @@
+.section__games_calendar {
+	background-color: var(--background-primary);
+
+}
+
+.games_calendar {
+	width: 100%;
+	max-width: var(--container);
+	margin: 0 auto;
+	border-collapse: collapse;
+
+	font-family: 'Inter', sans-serif;
+	color: var(--color-darker);
+	font-size: 16px;
+	line-height: 19px;
+
+	&__header {
+		color: var(--color-secondary);
+		background-color: var(--background-primary);
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+
+		th {
+			padding: 30px 0 25px 0;
+		}
+	}
+
+	tr {
+		height: 70px;
+	}
+
+	td {
+		text-align: center;
+		align-items: center;
+	}
+
+	&--row {
+		background-color: var(--color-secondary);
+
+		.games_calendar__month {
+			text-align: left;
+		}
+	}
+
+	&--secondary_row {
+		background-color: var(--background-table);
+	}
+
+
+	.dateMonth,
+	.dateYear {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 37px;
+
+		color: var(--color-thrid);
+	}
+
+	&__date {
+
+	}
+
+	&__time {
+
+	}
+
+	&__game {
+		width: 100%;
+		margin: 0 auto;
+
+		tr {
+			height: auto;
+		}
+	}
+
+	&__team {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 19px;
+		font-weight: 500;
+		&-city {
+			color: var(--color-darker-alfa);
+		}
+	}
+
+	&__team-logo {
+
+	}
+
+	&__game-score {
+		&--win {
+			font-weight: bold;
+		}
+	}
+
+	&__team-score {
+		&--win {
+			font-weight: bold;
+		}
+	}
+
+	&__address_game {
+
+		&--wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+		}
+	}
+
+	&__round {
+
+	}
+}
