@@ -13,6 +13,8 @@
 .nav__list {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .nav__link {
   font-family: "Inter", sans-serif;
