@@ -10,7 +10,7 @@ class Header extends React.Component {
 			<header className="header">
 				<div className="container">
 					<nav className="nav">
-						<a className="nav__logo" href="#">
+						<a className={`nav__logo`} href="#">
 							<img className="nav__logo--img"
 									 src="./front-end/assets/svg/logo_vc_brest.svg" width="83"
 									 height="56" alt="логотип волейбольного клуба Брест"/>

@@ -1,0 +1,37 @@
+@import '../../../../front-end/styles/variables.css';
+.header {
+  background-color: var(--background-primary);
+  color: var(--color-secondary);
+}
+
+.nav {
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 20px;
+}
+.nav__link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  transition: color 0.3s;
+}
+.nav__link:hover {
+  color: var(--link-hover);
+}
+.nav__selections {
+  margin-left: -1rem;
+  position: absolute;
+  padding: 0 1rem;
+  height: 12rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #0959A0;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */

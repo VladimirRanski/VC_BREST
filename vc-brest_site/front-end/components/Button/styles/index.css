@@ -1,0 +1,22 @@
+@import '../../../../front-end/styles/variables.css';
+.btn {
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  color: var(--color-secondary);
+  width: 270px;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: var(--background-btn-hover);
+  border-color: var(--background-btn-hover);
+}
+
+/*# sourceMappingURL=index.css.map */
