@@ -10,7 +10,8 @@ class Footer extends React.Component {
 				<div className="container">
 					<div className="footer__content">
 						<div className="footer__logo">
-							<img className="logo" src="./front-end/assets/svg/logo_vc_brest.svg"
+							<img className="logo"
+									 src="./front-end/assets/svg/logo_vc_brest.svg"
 									 alt="логотип"/>
 								<span className="footer__logo--title">ВК Брест</span>
 								<span className="footer__logo--date">2023</span>

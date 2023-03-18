@@ -1,9 +1,8 @@
-.section__games_calendar {
-	background-color: var(--background-primary);
-
+.section__games-calendar {
+	background-color: var(--background-secondary);
 }
 
-.games_calendar {
+.games-calendar {
 	width: 100%;
 	max-width: var(--container);
 	margin: 0 auto;
@@ -42,9 +41,13 @@
 		.games_calendar__month {
 			text-align: left;
 		}
+
+		&:nth-child(2n+1) {
+			background-color: var(--background-table);
+		}
 	}
 
-	&--secondary_row {
+	&--secondary-row {
 		background-color: var(--background-table);
 	}
 
@@ -59,13 +62,15 @@
 		color: var(--color-thrid);
 	}
 
-	&__date {
-
+	&__date,
+	&__time,
+	&__round{
+		max-width: 60px;
 	}
-
-	&__time {
-
-	}
+	//
+	//&__time {
+	//
+	//}
 
 	&__game {
 		width: 100%;
@@ -80,6 +85,7 @@
 		font-family: 'Montserrat', sans-serif;
 		font-size: 19px;
 		font-weight: 500;
+		width: 35%;
 		&-city {
 			color: var(--color-darker-alfa);
 		}
@@ -101,8 +107,8 @@
 		}
 	}
 
-	&__address_game {
-
+	&__address-game {
+		max-width: 240px;
 		&--wrapper {
 			display: flex;
 			flex-direction: column;
@@ -110,7 +116,5 @@
 		}
 	}
 
-	&__round {
 
-	}
 }
