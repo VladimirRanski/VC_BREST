@@ -3,10 +3,10 @@ const router = new Router();
 
 const clubAdminController = require('../controllers/club-admin.controller');
 
-router.post('/club-administration', clubAdminController.createClubAdmin);
-router.get('/club-administration', clubAdminController.getAllClubAdmin);
-router.get('/club-administration/:id', clubAdminController.getClubAdmin);
-router.put('/club-administration', clubAdminController.updateClubAdmin);
-router.delete('/club-administration/:id', clubAdminController.deleteClubAdmin);
+router.post('/', clubAdminController.createClubAdmin);
+router.get('/', clubAdminController.getAllClubAdmin);
+router.get('/:id', clubAdminController.getClubAdmin);
+router.put('/', clubAdminController.updateClubAdmin);
+router.delete('/:id', clubAdminController.deleteClubAdmin);
 
 module.exports = router;

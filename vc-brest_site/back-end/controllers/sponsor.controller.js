@@ -1,5 +1,6 @@
 const db = require('../db');
 
+
 class SponsorController{
 	async createSponsor(req, res){};
 	async getAllSponsor(req, res){};
