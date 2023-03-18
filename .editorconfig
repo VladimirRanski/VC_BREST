@@ -5,7 +5,7 @@ root = true
 [*]
 end_of_line = crlf
 insert_final_newline = true
-max_line_length = 80
+max_line_length = 100
 trim_trailing_whitespace = true
 
 # Используем табы для отступов (Не указываем размер)
@@ -21,5 +21,5 @@ indent_size = 2
 # для HTML и CSS/SCSS
 [*.{html,css,scss}]
 charset = utf-8
-indent_size = 4
+indent_size = 2
 indent_style = tab

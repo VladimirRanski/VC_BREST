@@ -1,0 +1,32 @@
+.header_tables {
+	background-color: var(--background-secondary);
+	color: var(--color-primary);
+	height: 250px;
+	padding-top: 110px;
+	position: relative;
+
+
+	&__title {
+		margin: 0 0 82px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 48px;
+		font-weight: 400;
+		line-height: 59px;
+
+	}
+
+	.btn-wrapper {
+		display: flex;
+		gap: 30px;
+	}
+
+	&__img {
+		position: absolute;
+		right: 20px;
+		bottom: -10px;
+	}
+
+	background-image: url('../../../assets/svg/background_abstraction.svg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
