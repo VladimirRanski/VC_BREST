@@ -1,11 +1,12 @@
 import React from "react";
 import './styles/index.scss';
 import Button from "../Button/Button";
-
+import {Link} from "react-router-dom";
 
 class Header extends React.Component {
 
 	render() {
+
 		return (
 			<header className="header">
 				<div className="container">
@@ -16,27 +17,27 @@ class Header extends React.Component {
 									 height="56" alt="логотип волейбольного клуба Брест"/>
 						</a>
 						<ul className="nav__list">
-							<li className="nav__item"><a className="nav__link" href="#">Расписание
-								игр</a></li>
-							<li className="nav__item" onClick={this.toggleHidden}><a
-								className="nav__link nav__link--selections" href="#">Команды</a>
+							<li className="nav__item"><Link className="nav__link" to="/games-calendar">Расписание
+								игр</Link></li>
+							<li className="nav__item" onClick={this.toggleHidden}><Link
+								className="nav__link nav__link--selections" to="#">Команды</Link>
 								<ul className="nav__selections hidden">
-									<li className="nav__item"><a className="nav__link" href="#">«Западный
-										Буг»</a></li>
-									<li className="nav__item"><a className="nav__link"
-																							 href="#">«Прибужье»</a></li>
+									<li className="nav__item"><Link className="nav__link" to="#">«Западный
+										Буг»</Link></li>
+									<li className="nav__item"><Link className="nav__link"
+																							 to="#">«Прибужье»</Link></li>
 								</ul>
 							</li>
-							<li className="nav__item"><a className="nav__link"
-																					 href="#">Новости</a></li>
-							<li className="nav__item"><a className="nav__link"
-																					 href="#">Галерея</a></li>
-							<li className="nav__item"><a className="nav__link" href="#">О
-								клубе</a></li>
-							<li className="nav__item"><a className="nav__link"
-																					 href="#">Контакты</a></li>
-							<li className="nav__item"><a className="nav__link"
-																					 href="#">Обращения</a></li>
+							<li className="nav__item"><Link className="nav__link"
+																					 to="#">Новости</Link></li>
+							<li className="nav__item"><Link className="nav__link"
+																					 to="#">Галерея</Link></li>
+							<li className="nav__item"><Link className="nav__link" href="#">О
+								клубе</Link></li>
+							<li className="nav__item"><Link className="nav__link"
+																					 to="#">Контакты</Link></li>
+							<li className="nav__item"><Link className="nav__link"
+																					 to="#">Обращения</Link></li>
 						</ul>
 					</nav>
 				</div>

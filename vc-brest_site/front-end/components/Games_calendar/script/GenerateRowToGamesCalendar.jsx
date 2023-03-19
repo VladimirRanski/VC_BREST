@@ -2,7 +2,7 @@ import React from "react";
 
 async function getData() {
 	return await fetch('./front-end/components/Games_calendar/script/gamesCalendar.json').then(data => data.json());
-};
+}
 
 const gamesCalendar = await getData();
 
@@ -20,7 +20,11 @@ const gamesCalendar = await getData();
  * @team_logo.guest - лого команды гостей
  * @team_score.guest - счет комады гостей
  */
+
+import {useLocation} from "react-router-dom";
+
 export default function GenerateRowToGamesCalendar() {
+	let url = useLocation();
 	return gamesCalendar.map((data, i) => {
 		let secondaryRow = '';
 

@@ -4,7 +4,6 @@ import GenerateRowToGamesCalendar from "./script/GenerateRowToGamesCalendar";
 import {WithTeamWin} from "./script/WithTeamWin";
 import Header_tables from "../Header_tables/Header_tables";
 
-
 class Games_calendar extends React.Component {
 
 	render() {
@@ -30,7 +29,6 @@ class Games_calendar extends React.Component {
 
 		);
 	}
-
 }
 
 export default Games_calendar
