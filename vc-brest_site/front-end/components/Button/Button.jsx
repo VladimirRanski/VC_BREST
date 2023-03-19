@@ -5,12 +5,13 @@ const classes = ['btn'];
 
 /**
  *
- * @param props.text - текст кнопки
- * @param props.type - тип кнопки
- * @param props.size - размер кнопки
- * @param props.state - состояние кнопки
+ * @param {string} props.text - текст кнопки
+ * @param {string} props.type - тип кнопки (dark or light) цвет по умолчанию
+ * @param {string} props.size - размер кнопки
+ * @param {string} props.state - состояние кнопки
  * @constructor
  */
+
 const AddingClasses = (props) => {
 	for (let key in props) {
 		if (((key !== 'href') && (key !== 'text')) && props[key] !== undefined) {
