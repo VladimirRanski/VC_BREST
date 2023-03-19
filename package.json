@@ -8,8 +8,8 @@
     "watch": "set NODE_ENV=development&&webpack --watch",
     "dev": "set NODE_ENV=development&&webpack",
     "prod": "set NODE_ENV=production&&webpack",
-    "server": "node vc-brest_site/back-end/index.js",
-    "devServerSQL": "nodemon vc-brest_site/back-end/index.js"
+    "server": "node vc-brest_site/server/index.js",
+    "devServerSQL": "nodemon vc-brest_site/server/index.js"
   },
   "author": "ZloyLis",
   "license": "MIT",

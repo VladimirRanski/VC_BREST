@@ -1,6 +1,6 @@
 const path = require('path');
 const uuid = require('uuid');
-const {Club} = require('../models/models');
+const {Club} = require('../models');
 const ApiError = require('../errors/api.error');
 
 
@@ -12,7 +12,7 @@ class ClubController {
 			const {name, city, foundation_date} = req.body;
 			const {logo} = req.files
 			let fileName = uuid.v4() + ".jpeg";
-			logo.mv(path.resolve(__dirname, '..', 'static', fileName))
+			await logo.mv(path.resolve(__dirname, '..', 'static', fileName))
 			const club = await Club.create({
 				name, city, foundation_date, logo: fileName
 			});

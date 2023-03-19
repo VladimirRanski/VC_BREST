@@ -1,4 +1,4 @@
-const {ClubAdministration, Club} = require('../models/models');
+const {ClubAdministration, Club} = require('../models');
 const ApiError = require('../errors/api.error');
 
 class ClubAdminController {
