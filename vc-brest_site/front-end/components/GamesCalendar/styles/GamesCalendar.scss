@@ -1,6 +1,9 @@
 .section__games-calendar {
-	background-color: var(--background-secondary);
+	//background-color: var(--background-secondary);
+	background: linear-gradient(150.9deg, #5994CF -2.88%, #FFFFFF 111.26%);
+	padding-bottom: 50px;
 }
+
 
 .games-calendar {
 	width: 100%;
@@ -20,6 +23,8 @@
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 19px;
+
+
 
 		th {
 			padding: 30px 0 25px 0;
@@ -52,14 +57,14 @@
 	}
 
 
-	.dateMonth,
-	.dateYear {
+	.date-month,
+	.date-year {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 500;
 		font-size: 30px;
 		line-height: 37px;
 
-		color: var(--color-thrid);
+		color: var(--color-third);
 	}
 
 	&__date,
@@ -70,8 +75,7 @@
 
 	&__time,
 	&__address-game {
-		//border-right: 1px solid var(--background-table);
-		background-color: rgba(0,0,0,0.03);
+		background-color: rgba(0, 0, 0, 0.03);
 	}
 
 
@@ -118,6 +122,5 @@
 			gap: 5px;
 		}
 	}
-	border-bottom: 1px solid var(--color-thrid);
-	margin-bottom: 50px;
+	//border-bottom: 1px solid var(--color-third);
 }

@@ -28,7 +28,7 @@
 		color: var(--color-secondary);
 
 		&:hover {
-			color: var(--color-thrid);
+			color: var(--color-third);
 			background-color: var(--background-secondary);
 		}
 	}
@@ -36,7 +36,7 @@
 	&.light {
 		border-color: var(--background-primary);
 		background-color: var(--background-secondary);
-		color: var(--color-thrid);
+		color: var(--color-third);
 
 		&:hover {
 			background-color: var(--background-primary);

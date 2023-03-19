@@ -1,7 +1,7 @@
 import React from "react";
 
 async function getData() {
-	return await fetch('./front-end/components/Games_calendar/script/gamesCalendar.json').then(data => data.json());
+	return await fetch('./front-end/components/GamesCalendar/script/gamesCalendar.json').then(data => data.json());
 };
 
 const gamesCalendar = await getData();

@@ -1,9 +1,11 @@
 .header_tables {
-	background-color: var(--background-secondary);
+	//background-color: var(--background-secondary);
 	color: var(--color-primary);
 	height: 250px;
 	padding-top: 110px;
 	position: relative;
+
+
 
 
 	&__title {
@@ -22,7 +24,7 @@
 
 	&__img {
 		position: absolute;
-		right: 20px;
+		left: calc(50vw + (var(--container)/10));
 		bottom: -10px;
 	}
 

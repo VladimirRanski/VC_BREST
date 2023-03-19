@@ -4,15 +4,17 @@ import ReactDOM from 'react-dom/client';
 import './front-end/styles/index.scss';
 
 import Header from "./front-end/components/Header/Header";
-import Games_calendar
-	from "./front-end/components/Games_calendar/Games_calendar";
+import GamesCalendar
+	from "./front-end/components/GamesCalendar/GamesCalendar";
 import Footer from "./front-end/components/Footer/Footer";
+import TournamentTable from "./front-end/components/TournamentTable/TournamentTable";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
 		<Header/>
-		<Games_calendar/>
+		{/*<GamesCalendar/>*/}
+		<TournamentTable/>
 		<Footer/>
 	</React.StrictMode>
 );

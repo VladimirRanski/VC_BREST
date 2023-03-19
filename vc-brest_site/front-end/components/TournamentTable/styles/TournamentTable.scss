@@ -1,0 +1,28 @@
+.section__tournament-table {
+	background: linear-gradient(150.9deg, #5994CF -2.88%, #FFFFFF 111.26%);
+	padding-bottom: 50px;
+}
+
+.tournament-table {
+	width: 100%;
+	max-width: var(--container);
+	margin: 0 auto;
+	border-collapse: collapse;
+
+	font-family: 'Inter', sans-serif;
+	color: var(--color-darker);
+	font-size: 16px;
+	line-height: 19px;
+
+	&__header {
+		color: var(--color-secondary);
+		background-color: var(--background-primary);
+		font-family: 'Inter', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		th {
+			padding: 30px 0 25px 0;
+		}
+	}
+}
