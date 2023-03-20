@@ -11,7 +11,7 @@ const Player = sequelize.define('player', {
 	height: {type: DataTypes.INTEGER},
 	gender: {type: DataTypes.ENUM('male', 'female')},
 	photo: {type: DataTypes.STRING}
-});
+}, {timestamps: false});
 
 
 module.exports = Player;

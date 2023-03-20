@@ -21,10 +21,10 @@ const gamesCalendar = await getData();
  * @team_score.guest - счет комады гостей
  */
 
-import {useLocation} from "react-router-dom";
+
 
 export default function GenerateRowToGamesCalendar() {
-	let url = useLocation();
+
 	return gamesCalendar.map((data, i) => {
 		let secondaryRow = '';
 

@@ -7,7 +7,7 @@ const Sponsor = sequelize.define('sponsor', {
 	name: {type: DataTypes.STRING, allowNull: false},
 	city: {type: DataTypes.STRING},
 	logo: {type: DataTypes.STRING}
-});
+}, {timestamps: false});
 
 
 module.exports = Sponsor;

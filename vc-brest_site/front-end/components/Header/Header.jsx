@@ -1,6 +1,5 @@
 import React from "react";
 import './styles/index.scss';
-import Button from "../Button/Button";
 import {Link} from "react-router-dom";
 
 class Header extends React.Component {
@@ -25,19 +24,19 @@ class Header extends React.Component {
 									<li className="nav__item"><Link className="nav__link" to="#">«Западный
 										Буг»</Link></li>
 									<li className="nav__item"><Link className="nav__link"
-																							 to="#">«Прибужье»</Link></li>
+																									to="#">«Прибужье»</Link></li>
 								</ul>
 							</li>
 							<li className="nav__item"><Link className="nav__link"
-																					 to="#">Новости</Link></li>
+																							to="#">Новости</Link></li>
 							<li className="nav__item"><Link className="nav__link"
-																					 to="#">Галерея</Link></li>
+																							to="#">Галерея</Link></li>
 							<li className="nav__item"><Link className="nav__link" href="#">О
 								клубе</Link></li>
 							<li className="nav__item"><Link className="nav__link"
-																					 to="#">Контакты</Link></li>
+																							to="#">Контакты</Link></li>
 							<li className="nav__item"><Link className="nav__link"
-																					 to="#">Обращения</Link></li>
+																							to="#">Обращения</Link></li>
 						</ul>
 					</nav>
 				</div>

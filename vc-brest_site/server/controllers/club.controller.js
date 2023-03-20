@@ -5,8 +5,6 @@ const ApiError = require('../errors/api.error');
 
 
 class ClubController {
-
-
 	async createClub(req, res, next) {
 		try {
 			const {name, city, foundation_date} = req.body;

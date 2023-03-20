@@ -5,6 +5,9 @@ const Sponsor = require('./sponsor.model')
 const Team = require('./team.model')
 const Trainer = require('./trainer.model')
 const User = require('./user.model')
+const GameStatistic = require('./game-statistic.model')
+const Game = require('./game.model')
+const PlayerStatistic = require('./player-statistic.model')
 
 
 /** Keys **/
@@ -24,6 +27,8 @@ Team.hasMany(Trainer);
 Trainer.belongsTo(Team);
 /** End Keys **/
 
+
+
 module.exports = {
 	Club,
 	ClubAdministration,
@@ -31,6 +36,9 @@ module.exports = {
 	Player,
 	Trainer,
 	Sponsor,
-	User
+	User,
+	PlayerStatistic,
+	Game,
+	GameStatistic
 };
 

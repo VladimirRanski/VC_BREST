@@ -9,8 +9,9 @@ const Trainer = sequelize.define('trainer', {
 	patronymic: {type: DataTypes.STRING(100)},
 	birthday: {type: DataTypes.DATEONLY},
 	gender: {type: DataTypes.ENUM('male', 'female')},
-	photo: {type: DataTypes.STRING}
-});
+	photo: {type: DataTypes.STRING},
+	teamId: {type: DataTypes.INTEGER, allowNull: true}
+}, {timestamps: false});
 
 
 module.exports = Trainer;

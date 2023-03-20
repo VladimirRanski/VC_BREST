@@ -1,6 +1,5 @@
 const sequelize = require("../db");
 const {DataTypes} = require("sequelize");
-const {Club} = require("./index");
 
 const ClubAdministration = sequelize.define('club_administration', {
 	id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
@@ -9,7 +8,7 @@ const ClubAdministration = sequelize.define('club_administration', {
 	patronymic: {type: DataTypes.STRING, allowNull: true},
 	phone_number: {type: DataTypes.STRING},
 	photo: {type: DataTypes.STRING}
-});
+}, {timestamps: false});
 
 
 module.exports = ClubAdministration;
