@@ -1,7 +1,7 @@
 .idea
 /node_modules/
 /ВК БРЕСТ/
+/VC_BREST/client/node_modules/
+/VC_BREST/client/.next/
+/VC_BREST/server/node_modules/
 
-
-
-/dist
